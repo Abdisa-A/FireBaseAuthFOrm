@@ -1,12 +1,20 @@
-var firebaseConfig = {
-  apiKey: "AIzaSyCKGUmFr5B7Uag0NctkhCRDkAQoB5pYNQg",
-  authDomain: "fir-login-2eaf4.firebaseapp.com",
-  databaseURL: "https://fir-login-2eaf4-default-rtdb.firebaseio.com",
-  projectId: "fir-login-2eaf4",
-  storageBucket: "fir-login-2eaf4.appspot.com",
-  messagingSenderId: "608621681488",
-  appId: "1:608621681488:web:626e37a5cc92b8764aaa55",
-  measurementId: "G-T70T1M6SSE"
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyA5aCJY_e-5OgcXBOrSCT7hXxFOF-NvnTM",
+
+  authDomain: "loginauthform.firebaseapp.com",
+
+  projectId: "loginauthform",
+
+  storageBucket: "loginauthform.appspot.com",
+
+  messagingSenderId: "573484256116",
+
+  appId: "1:573484256116:web:befde7faa39b833054fa21",
+
+  measurementId: "G-STR9ZTE7ZC",
 };
+
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
